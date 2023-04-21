@@ -1,0 +1,103 @@
+
+*,
+*::before,
+*::after {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.App{
+  display: flex;
+  background-color: rgb(49, 49, 49);
+  align-items: center;
+  justify-content: center;
+}
+.calculadora{
+  width: 50rem;
+  height: 60rem;
+  padding: 1.4rem;
+  background-color: #99c9ff;
+  border-radius: 2rem;
+  border: 0.5rem solid white;
+}
+.fila{
+  margin: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boton-contenedor{
+  flex: 1 1 ;
+  height: 8.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 3.8rem;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 2.5rem;
+  margin: 0.4rem;
+  cursor:pointer;
+  user-select: none;
+  border: 0.2rem solid white;
+
+}
+.boton-contenedor:hover{
+  background-color: orange;
+  
+}
+
+.operador{
+  background-color: #00571b;
+
+}
+.operador:hover{
+  background-color: violet;
+}
+.input{
+  height: 7.5rem;
+  border-radius: 5.0rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0a0a23;
+  color: white;
+  padding: 1.1rem;
+  font-size: 3rem;
+  padding-right: 3rem;
+  font-weight: bold;
+}
+.clear-btn{
+  height: 8rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  margin-top: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+
+}
+.clear-btn:hover{
+  background-color: yellow;
+}
+
+h1{
+  color: black;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
